@@ -1,0 +1,15 @@
+variable "rg_name" {
+  type = string
+}
+variable "location" {
+  type = string
+}
+variable "storage_name" {
+  type = string
+}
+variable "storage_accounte_type" {
+  type = string
+}
+variable "account_replication_type" {
+  type = string
+}
