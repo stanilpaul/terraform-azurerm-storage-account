@@ -4,3 +4,12 @@ variable "rg_name" {
 variable "location" {
   type = string
 }
+variable "storage_name" {
+  type = string
+}
+variable "storage_account_type" {
+  type = string
+}
+variable "account_replication_type" {
+  type = string
+}
